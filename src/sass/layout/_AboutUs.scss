@@ -1,11 +1,14 @@
 main {
   width: 100%;
-  height: 90rem;
+  margin: 0 auto;
+}
+
+.aboutUs__textbox {
   margin: 0 auto;
 }
 
 .aboutUs {
-  margin: 8rem auto;
+  margin: 2rem auto;
   width: 100%;
   font-family: "inter";
   display: flex;
@@ -14,11 +17,10 @@ main {
 
   &__textbox {
     width: 47%;
-    height: 40rem;
-    // justify-content: space-evenly;
+    // height: 40rem;
     align-items: center;
     max-width: 140rem;
-    padding: 2rem;
+    // padding: 2rem;
 
     & h2 {
       line-height: 26px;
@@ -50,11 +52,10 @@ main {
   &__img-container {
     width: 50%;
     display: flex;
-    // justify-content: center;
-    // align-items: center;
   }
 }
 .btn {
+  position: relative;
   display: inline-block;
   margin: 2rem auto;
 }
@@ -70,7 +71,7 @@ main {
 .column-inner {
   background: #212144;
   width: 35rem;
-  // height: auto;
+  max-block-size: 57rem;
   margin-left: 1.3rem;
   margin-right: 1.2rem;
 
